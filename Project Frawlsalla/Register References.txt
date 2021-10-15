@@ -1,0 +1,9 @@
+wallpaper register (Register Page): https://www.brawlhalla.com/wallpapers/
+
+instagram Logo (Footer): <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+facebook Logo(Footer): <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
+twitch Logo (Footer): https://www.flaticon.com/free-icon/twitch_2111727?term=twitch%20logo&page=1&position=4&page=1&position=4&related_id=2111727&origin=search
+
+youtube Logo (footer) :<div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>

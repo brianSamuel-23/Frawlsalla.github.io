@@ -1,0 +1,518 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+.header{
+    top: 0;
+    position: sticky;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    height: 10vh;
+    background-color: #033b72;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    display: flex;
+    justify-content: space-between;
+    z-index: 9999;
+    
+}
+
+.logo{
+    padding-left: 41vw;
+}
+
+#icon {
+  
+  display: none;
+  
+  
+}
+
+#icon i{
+  font-size: 5vw;
+}
+#responsivenav{
+  display: none;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  
+}
+
+
+#responsivenav a{
+  font-size: 4vw;
+  font-weight:500;
+  text-decoration: none;
+  color: white;
+  display: block;
+  background-color: #04509c;
+  padding-left: 4vw;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+
+  
+}
+
+#responsivenav a:hover {
+  background-color: #999999;
+  color:white;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+
+/* ddl */
+
+  
+  .dropdown {
+    
+    float: left;
+    overflow: hidden;
+    margin-right: 4vw;
+    margin-top: 1vh;
+    font-size: 1.3vw;
+  }
+
+  .dropbutton {
+   
+    background-color: #033b72 ;
+    /* #033b72 */
+    color: white;
+    padding: 2vh 2vw 3.4vh 1vw;
+    font-size: 2vw;
+    margin: 0;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    
+    display: none;
+    position:absolute;
+    background-color: #04509c;
+    min-width: 12.5vw;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 1.5vh 1.5vw 2vh 1.5vw;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #999999;
+    color:white;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #03488d;
+  }
+
+/* ddl */
+
+
+
+
+    /*slider*/ 
+    .slider{
+      position: relative;
+      width: 100%;
+    }
+
+    .sliderOuter{
+      
+      width: 100%;
+    }
+    .sliderInner{
+      width: 100%;
+      
+      
+    }
+
+    .sliderInner img{
+      display: none;
+      width: 100%;
+    }
+    .sliderInner img.active{
+      display: inline-block;
+    }
+
+    .prev, .next{
+      font-size: 3vw;
+      color: white;
+      top:60vh;
+      padding: 1vw;
+      cursor: pointer;
+      
+      
+    }
+
+    .prev:hover, .next:hover{
+      background-color: rgba(0,0,0,0.8);
+    }
+    .prev{
+      position: absolute;
+      left: 0;
+      
+    }
+    .next{
+      position: absolute;
+     right: 0;
+     
+    }
+
+    /* slider */
+
+
+
+
+
+
+
+    /* play button */
+
+    .play{
+      text-align: center;
+      padding-bottom: 5vh;
+      margin-top:-5vh;
+    }
+
+    #playbutton{
+      background-color: #f87549;
+      padding-left: 5vw;
+      padding-right: 5vw;
+      padding-top: 0.97vh;
+      padding-bottom: 0.65vh;
+      font-size: 3.25vw;
+      font-weight: bold;
+      color: white;
+      border-radius: 0.65vw;
+      border: none;
+      transition-duration: 1s;  
+    }
+
+    #playbutton:hover{
+      background-color: #f85d29;
+    }
+
+
+
+
+
+/* text */
+
+.caption{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 4.6vw;
+  font-weight: bold;
+  letter-spacing: -0.06vw;
+  margin-bottom: 10vh;
+  margin-top: 5vh;
+  
+}
+
+.caption .blacktext{
+  color: black;
+}
+.caption .orangetext{
+  color:#f85d29;
+}
+
+/* text */
+
+/* legend */
+.legend{
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: black;
+  font-size: 1.96vw;
+  font-weight: bold;
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.legend .title{
+  font-size: 3.9vw;
+  font-weight: bold;
+  color:#f85d29;
+  margin: 0;
+}
+
+/* play your way */
+
+.PlayYourWay{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15vh;
+}
+
+.PlayYourWay #pTitle{
+  font-size: 3.9vw;
+    
+  color: #033b72;
+  margin-bottom: 10vh;
+}
+
+.PlayYourWay .content{
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  
+}
+
+.PlayYourWay .content p{
+  width: 50%;
+  font-size: 1.95vw;
+  text-align: left;
+  word-wrap: break-word;
+  margin-left: 5vw;
+  letter-spacing: 0px;
+  
+}
+.PlayYourWay .content #imagemode{
+  width: 50%;
+}
+
+.vidcontainer{
+  text-align: center;
+  margin-bottom: 10vh;
+}
+
+#youtubeVid{
+  width: 36.5vw;
+  height: 41.44vh;
+  
+}
+#ftp{
+  font-size: 3.9vw;
+  color: #033b72;
+  margin-bottom: 10vh;
+  text-align: center;
+  font-weight: bold;
+}
+
+.footer{
+  background-color: #033b72;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.63vw;
+  height: 20vh;
+  display: flex;
+  padding-top: 2vh;
+
+}
+
+.leftfooter{
+  width: 50%;
+  text-align: right;
+  margin-top: 2vh;
+}
+.rightfooter{
+  padding-left: 2vw;
+  width: 50%;
+  font-weight: bold;
+}
+
+  .rightfooter .upper{
+    display: flex;
+  }
+
+.socmed{
+  margin-top: 2vh;
+  margin-left: 2vh;
+  margin-right: 1vh;
+}
+
+.rightfooter .lower{
+  margin-top: -2vh;
+}
+
+
+@media screen and (max-width : 500px){
+
+  .logo{
+    padding-left: 3vw;
+    width: 32%;
+    height: 75%;
+  }
+
+  .dropdown{
+    display: none;
+  }
+
+
+  #icon {
+    color: white;
+    position:absolute;
+    right: 5vw;
+    top: 4vh;
+    display: block;
+    
+    
+  }
+  #playbutton{
+   
+    padding-left: 8vw;
+    padding-right: 8vw;
+    padding-top: 1.27vh;
+    padding-bottom: 0.95vh;
+    font-size: 6.25vw;
+    border-radius: 0.85vw;
+     
+  }
+
+  /* slider */
+
+  .prev, .next{
+    font-size: 8vw;
+    top: 28%;
+  }
+
+  .prev:hover, .next:hover{
+    background-color: rgba(0,0,0,0.8);
+  }
+  .prev{
+    position: absolute;
+    left: 0vw;
+    
+  }
+  .next{
+    position: absolute;
+    right: 0vw;
+   
+  }
+  /* slider */
+
+  .play{
+    margin-top:-4vh;
+  }
+
+  .caption{
+    font-size: 7.6vw;
+    margin-bottom: 8vh;
+    margin-top: 2vh;
+  }
+
+  .legend{
+    
+    font-size: 3.4vw;
+    font-weight: bold;
+    margin-top: 5vh;
+    margin-bottom: 7vh;
+    width: 100%;
+  }
+  .legend img{
+    width: 80%;
+    height: 20%;
+  }
+  
+  .legend .title{
+    font-size: 6vw;
+  }
+
+  .PlayYourWay{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10vh;
+  }
+  .PlayYourWay #imgmode{
+    width: 100%;
+    
+  }
+  
+  .PlayYourWay #pTitle{
+    font-size: 5.9vw;
+    margin-bottom: 6vh;
+  }
+  
+  .PlayYourWay .content{
+    width: 100%;
+    display:block;
+    
+  }
+  
+  .PlayYourWay .content p{
+    width: 88%;
+    font-size: 3.4vw;
+    text-align: center;
+    
+  }
+  
+  #youtubeVid{
+    width: 80%;
+    height: 40vh;
+    
+  }
+
+  .vidcontainer{
+    text-align: center;
+    margin-bottom: 6vh;
+  }
+
+  #ftp{
+    font-size: 6.2vw;
+    margin-bottom: 8vh;
+    
+  }
+  
+  .footer{
+    font-size: 2.5vw;
+    height: 11vh;
+    display: flex;
+    padding-top: 2vh;
+    width: 100%;
+  
+  }
+
+  .leftfooter{
+    width:40%;
+    text-align: right;
+    margin-top: 2vh;
+    margin-right: 2vw;
+  }
+
+  .rightfooter{
+    padding-left: 1vw;
+    width: 60%;
+    font-weight: bold;
+  }
+
+  .rightfooter .upper .socmed{
+    width: 8%;
+  }
+  
+  
+  .socmed{
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    margin-left: 1.3vh;
+    margin-right: 1vh;
+  }
+  
+
+
+
+
+
+
+
+ 
+
+}
+

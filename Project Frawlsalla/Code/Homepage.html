@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frawlsalla HomePage</title>
+    <link rel="stylesheet" href="CssHome.css">
+    <!-- library untuk logo hamburger aja -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- library untuk logo hamburger aja -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="Home.js" async defer></script>
+    <script src="JQuerySlider.js" async defer></script>
+</head>
+<body>
+
+    <div class="header">
+
+       
+            <img src="../Assets/Logo New.png" alt="" class="logo" width="19%">
+
+
+            <div class="dropdown">
+                <button class="dropbutton">Home</button>
+                <div class="dropdown-content">
+                    <a href="#">Home</a>   
+                    <a href="Screenshot.html">Screenshots</a>
+                    <a href="Events.html">Events</a>
+                    <a href="CharacterPage.html">Characters</a>
+                    <a href="Register.html">Play Now</a>
+                </div> 
+            </div>
+
+            <a href="javascript:void(0);" id="icon" onclick="clickbutton()">
+                <i class="fa fa-bars"></i>
+            </a>
+            
+
+    </div>
+
+    <div id="responsivenav">
+        <a href="#">HOME</a>
+        <a href="Screenshot.html">SCREENSHOTS</a>
+        <a href="Events.html">EVENTS</a>
+        <a href="CharacterPage.html">CHARACTERS</a>
+        <a href="Register.html">PLAY NOW</a>
+    </div>
+
+    
+
+    <div class="body">
+
+        <div class="SlideAndButton">
+
+            <div id="slider">
+
+                
+                    <div class="sliderOuter">
+
+                        <div class="sliderInner">
+                            <img src="../Assets/Homepage/CharityStream_DEC2020-1.jpg" alt="" class="active" id="first">
+                            <img src="../Assets/Homepage/anniversary.jpg" alt="" > 
+                            <img src="../Assets/Homepage/ranked.jpg" alt="" > 
+                            <img src="../Assets/Homepage/luck o.jpg" alt="" > 
+                            <img src="../Assets/Homepage/CharityStream_DEC2020-1.jpg" alt="" id="last"> 
+                        </div>
+                        <a class="prev" alt="prev">&#10094;</a>
+                        <a class="next" alt="next">&#10095;</a>
+                    </div>
+                     
+            </div>
+    
+            <div class="play">
+                <button id="playbutton">PLAY NOW</button>
+            </div>
+    
+
+        </div>
+
+   
+        <div class="caption">
+            
+                <span class="caption blacktext">Become a Legend, with</span>
+                <span class="caption orangetext">legends</span>
+                <span class="caption blacktext">!</span>
+            
+           
+        </div>
+           
+        <div class="legend">
+            <img src="../Assets/Homepage/PngItem_2342778.png" alt="" width="70%">
+            <h1 class="legend title">LEGENDS</h1>
+            <p>With more than 40 legends to chose. Each legend<br>
+                has unique abilities and weapons, and customizable <br>
+                to suit your playstyle. Become Legend by mastering <br> 
+                the available legends
+            </p>
+
+        </div>
+
+        <div class="PlayYourWay">
+            <h1 id="pTitle">Play Your Way !</h1>
+            <div class="PlayYourWay content">
+                <img src="../Assets/Homepage/modes.jpg" alt="" width="100%%" id="imagemode">
+                <p>Play offline with your friends, play online, or play in ranked games. You can participate in various game modes
+                    like kungfoot, frawlball, etc. with your friends or randoms. Play frawlsalla your way!
+                
+                </p>
+            </div>
+        </div>
+        
+        <div class="vidcontainer">
+            <iframe id="youtubeVid" src="https://www.youtube.com/embed/Mx25Q3LKQ9Q" title="YouTube video player" frameborder="0" 
+        allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+        <p id="ftp">FREE TO PLAY</p>
+        
+
+
+    </div>
+
+    <div class="footer">
+
+        <div class="leftfooter">
+            <img src="../Assets/Logo New.png" alt="" width="50%">
+        </div>
+       
+        <div class="rightfooter">
+            <div class="upper">
+                <p>Follow us on</p>
+                <img src="../Assets/instagram-white.png" alt="" width="7%" height="7%" class="socmed">
+                <img src="../Assets/facebook-white.png" alt=""width="7%" height="7%" class="socmed">
+                <img src="../Assets/twitch-white.png" alt="" width="7%" height="7%"class="socmed">
+                <img src="../Assets/youtube-white.png" alt="" width="7%" height="7%"class="socmed">
+            </div>
+            <div class="lower">
+                <p>&#169 clown games. All rights Reserved.</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frawlsalla HomePage</title>
+    <link rel="stylesheet" href="Register.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- library untuk logo hamburger aja -->
+    <script src="jquery-3.6.0.min.js"></script>
+    <script src="Register.js" async defer></script>
+</head>
+<body>
+
+    <div class="header">
+
+       
+        <img src="../Assets/Logo New.png" alt="" class="logo" width="19%">
+    
+    
+        <div class="dropdown">
+            <button class="dropbutton">Play Now</button>
+            <div class="dropdown-content">
+                <a href="Homepage.html">Home</a>   
+                <a href="Screenshot.html">Screenshots</a>
+                <a href="Events.html">Events</a>
+                <a href="CharacterPage.html">Characters</a>
+                <a href="#">Play Now</a>
+            </div> 
+        </div>
+    
+        <a href="javascript:void(0);" id="icon" onclick="clickbutton()">
+            <i class="fa fa-bars"></i>
+        </a>
+        
+    
+    </div>
+    
+    <div id="responsivenav">
+
+        <a href="Homepage.html">HOME</a>
+        <a href="Screenshot.html">SCREENSHOTS</a>
+        <a href="Events.html">EVENTS</a>
+        <a href="CharacterPage.html">CHARACTERS</a>
+        <a href="#">PLAY NOW</a>
+    </div>
+
+    <div class="body" >
+
+        <div class="formBox">
+
+            <h1>REGISTER</h1>
+            
+            <form action="" method="POST" id="Regisform">
+
+            
+                <div class="name">
+                    <label for="username">User Name</label>
+                    <input type="text" name="username" id="username" placeholder="Ex: Legends112">
+                </div>
+                
+                <div class="email">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email" placeholder="Ex: frawlsalla@hotmail.com">
+                </div>
+
+                <div class="password">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Must be longer than 8 characters">
+                    <label for="confirm">Confirm your password</label>
+                    <input type="password" id="confirm" name="confirm">
+                </div>
+
+                <div class="DOB">
+                    <label for="DOB">Date of Birth</label>
+                    <input type="date" name="DOB" id="DOB">
+                </div>
+
+                <div class="gender">
+                    <label for="">Gender</label> <br>
+                    <input type="radio" name="gender" id="gender" value="male">
+                    <label for="">Male</label>  
+                    <input type="radio" name="gender" id="gender" value="female">
+                    <label for="">Female</label> <br>
+                </div>
+
+                <div class="TOS">
+                    <input type="checkbox" name="TOS" id="TOS">
+                    <label for="TOS">I Agree to Terms of Service</label>
+                </div>
+
+                <div class="submit">
+                    <input type="submit" id="signup" value="Sign Up" >
+                </div>
+    
+    
+
+
+            </form>
+    
+        </div>
+
+        
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <div class="footer">
+
+        <div class="leftfooter">
+            <img src="../Assets/Logo New.png" alt="" width="50%">
+        </div>
+       
+        <div class="rightfooter">
+            <div class="upper">
+                <p>Follow us on</p>
+                <img src="../Assets/instagram-white.png" alt="" width="7%" height="7%" class="socmed">
+                <img src="../Assets/facebook-white.png" alt=""width="7%" height="7%" class="socmed">
+                <img src="../Assets/twitch-white.png" alt="" width="7%" height="7%"class="socmed">
+                <img src="../Assets/youtube-white.png" alt="" width="7%" height="7%"class="socmed">
+            </div>
+            <div class="lower">
+                <p>&#169 clown games. All rights Reserved.</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
